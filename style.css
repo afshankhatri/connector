@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: xx-large;
+}
+#addnewPerson{
+    cursor: pointer;
+}
+#networkICON{
+    cursor: pointer;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.boundry{
+    height: 300px;
+    width: 400px;
+    background-color: azure;
+    border: 2px black solid;        
+    box-shadow: 1px 3px 5px; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.userOverview{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(235, 220, 248);
+    border-radius: 15px;
+}
+.information{
+    /* height: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#upperForImage{
+    height: 36%;
+    border-radius: 50px;
+}
+.imag{
+    height: 90%;
+    width: 90%;
+}
+
+#lowerTextInfo{
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-around; 
+    align-items: center;
+}
+.connect{
+    height: 40px;
+    width: 90px;
+    background-color: rgb(46, 115, 253);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px;
+    cursor: pointer;
+}
+.connect:hover{
+    transform: scale(1.01);
+}
+a{
+    text-decoration: none;
+    
+    font-size: large;
+}
+
+
+.adddetails{
+    height: 200px;
+    width: 300px;
+    background-color: azure;
+    border: 2px black solid;        
+    box-shadow: 1px 3px 5px; 
+    border-radius: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
